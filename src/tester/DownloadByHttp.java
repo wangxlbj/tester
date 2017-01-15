@@ -27,7 +27,7 @@ import org.apache.http.util.EntityUtils;
 
 public class DownloadByHttp {
 
-	private static final String buildServerURLPrefix = "https://snjgsa.xxx.com/projects/t/tsmc/test/fastback/v";
+	private static final String buildServerURLPrefix = "https://snjgsa.xxx.com/projects/t/tsmc/test/products/v";
 	private static final String filenamePrefix = "fstbk";
 	private String buildServerUrl2Folder;
 	private String hostName;
@@ -165,11 +165,11 @@ public class DownloadByHttp {
 	 * <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
 	 * <html>
 	 *  <head>
-	 *   <title>Index of /FastBack/pkg/fstbk618</title>
+	 *   <title>Index of /products/pkg/fstbk618</title>
 	 *  </head>
 	 *  <body>
-	 * <h1>Index of /FastBack/pkg/fstbk618</h1>
-	 * <pre><img src="/icons/blank.gif" alt="Icon "> <a href="?C=N;O=D">Name</a>                    <a href="?C=M;O=A">Last modified</a>      <a href="?C=S;O=A">Size</a>  <a href="?C=D;O=A">Description</a><hr><img src="/icons/back.gif" alt="[DIR]"> <a href="/FastBack/pkg/">Parent Directory</a>                             -   
+	 * <h1>Index of /products/pkg/fstbk618</h1>
+	 * <pre><img src="/icons/blank.gif" alt="Icon "> <a href="?C=N;O=D">Name</a>                    <a href="?C=M;O=A">Last modified</a>      <a href="?C=S;O=A">Size</a>  <a href="?C=D;O=A">Description</a><hr><img src="/icons/back.gif" alt="[DIR]"> <a href="/products/pkg/">Parent Directory</a>                             -   
 	 * <img src="/icons/folder.gif" alt="[DIR]"> <a href="6180149_08Aug13/">6180149_08Aug13/</a>        08-Aug-2013 21:17    -   
 	 * <img src="/icons/folder.gif" alt="[DIR]"> <a href="6180150_11Aug13/">6180150_11Aug13/</a>        11-Aug-2013 20:48    -   
 	 * <img src="/icons/folder.gif" alt="[DIR]"> <a href="6181102_12Aug13/">6181102_12Aug13/</a>        12-Aug-2013 20:54    -   
@@ -225,7 +225,7 @@ public class DownloadByHttp {
 
 	/**
 	 * Get the whole build URL, like:
-	 * http://hrlgpfs.haifa.xxx.com/FastBack/pkg/fstbk618/6181123_25Sep13/fstbk618_6181123_25Sep13.zip
+	 * http://hrlgpfs.haifa.xxx.com/products/pkg/fstbk618/6181123_25Sep13/fstbk618_6181123_25Sep13.zip
 	 * @return
 	 */
 	public String getBuildUrl() {
@@ -296,7 +296,7 @@ public class DownloadByHttp {
 	}
 
 	public static void main(String[] args) {
-		// http://hrlgpfs.haifa.xxx.com/FastBack/pkg/fstbk618/6181123_25Sep13/fstbk618_6181123_25Sep13.zip
+		// http://hrlgpfs.haifa.xxx.com/products/pkg/fstbk618/6181123_25Sep13/fstbk618_6181123_25Sep13.zip
 		//		BuildDownloader bd = new BuildDownloader("6181", "123", "Wangxlbj@cn.xxx.com", "Firewall123!");
 
 		String platform = "WINDOWS";
